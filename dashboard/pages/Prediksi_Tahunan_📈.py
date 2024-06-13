@@ -11,8 +11,8 @@ st.write(
     """Grafik dibawah memperlihatkan hasil forecast curah hujan dalam rentang satu tahun."""
 )
 selected_year = st.selectbox("Pilih Tahun", [datetime.datetime.now().year, datetime.datetime.now().year + 1])
-date = np.load('assets/date_index.npy')
-val = np.load('assets/rainfall_rate.npy')
+date = np.load('dashboard/assets/date_index.npy')
+val = np.load('dashboard/assets/rainfall_rate.npy')
 
 
 if st.button("Prediksi!"):

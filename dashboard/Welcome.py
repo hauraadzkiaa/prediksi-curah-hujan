@@ -36,24 +36,24 @@ max_rainfall_all = max([range_[1] for range_ in ideal_rainfall.values()])
 col1,col2,col3= st.columns(3)
 
 col1.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[0]}</div>", unsafe_allow_html=True)
-col1.image(f"./assets/{crops[0]}.png", caption=f"{ideal_rainfall[crops[0]][0]} mm - {ideal_rainfall[crops[0]][1]} mm")
+col1.image(f"assets/{crops[0]}.png", caption=f"{ideal_rainfall[crops[0]][0]} mm - {ideal_rainfall[crops[0]][1]} mm")
 
 col2.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[1]}</div>", unsafe_allow_html=True)
-col2.image(f"./assets/{crops[1]}.png", caption=f"{ideal_rainfall[crops[1]][0]} mm - {ideal_rainfall[crops[1]][1]} mm")
+col2.image(f"assets/{crops[1]}.png", caption=f"{ideal_rainfall[crops[1]][0]} mm - {ideal_rainfall[crops[1]][1]} mm")
 
 col3.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[2]}</div>", unsafe_allow_html=True)
-col3.image(f"./assets/{crops[2]}.png", caption=f"{ideal_rainfall[crops[2]][0]} mm - {ideal_rainfall[crops[2]][1]} mm")
+col3.image(f"assets/{crops[2]}.png", caption=f"{ideal_rainfall[crops[2]][0]} mm - {ideal_rainfall[crops[2]][1]} mm")
 
 col4, col5, col6 = st.columns(3)
 
 col4.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[3]}</div>", unsafe_allow_html=True)
-col4.image(f"./assets/{crops[3]}.png", caption=f"{ideal_rainfall[crops[3]][0]} mm - {ideal_rainfall[crops[3]][1]} mm")
+col4.image(f"assets/{crops[3]}.png", caption=f"{ideal_rainfall[crops[3]][0]} mm - {ideal_rainfall[crops[3]][1]} mm")
 
 col5.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[4]}</div>", unsafe_allow_html=True)
-col5.image(f"./assets/{crops[4]}.png", caption=f"{ideal_rainfall[crops[4]][0]} mm - {ideal_rainfall[crops[4]][1]} mm")
+col5.image(f"assets/{crops[4]}.png", caption=f"{ideal_rainfall[crops[4]][0]} mm - {ideal_rainfall[crops[4]][1]} mm")
 
 col6.markdown(f"<div style='text-align: center;font-weight: bold;'>{crops[5]}</div>", unsafe_allow_html=True)
-col6.image(f"./assets/{crops[5]}.png", caption=f"{ideal_rainfall[crops[5]][0]} mm - {ideal_rainfall[crops[5]][1]} mm")
+col6.image(f"assets/{crops[5]}.png", caption=f"{ideal_rainfall[crops[5]][0]} mm - {ideal_rainfall[crops[5]][1]} mm")
 
 st.markdown("""
 ### Referensi

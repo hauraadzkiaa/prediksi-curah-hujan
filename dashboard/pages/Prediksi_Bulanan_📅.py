@@ -12,8 +12,8 @@ st.write(
 )
 
 months = ['Januari','Februari','Maret','April','Mei','Juni','Juli','Agustus','September','Oktober','November','Desember']
-date = np.load('./assets/date_index.npy')
-val = np.load('./assets/rainfall_rate.npy')
+date = np.load('assets/date_index.npy')
+val = np.load('assets/rainfall_rate.npy')
 df = pd.DataFrame({'Date': date, 'Value': val})
 crop_cutoff = {
     'Padi': (125, 167),

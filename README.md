@@ -1,2 +1,1 @@
-# rainfall-prediction-app
-# rainfall-prediction
+# aplikasi prediksi curah hujan
